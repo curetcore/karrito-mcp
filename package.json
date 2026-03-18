@@ -10,19 +10,36 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [
     "mcp",
+    "mcp-server",
+    "model-context-protocol",
     "karrito",
     "whatsapp",
     "catalog",
+    "digital-catalog",
     "latam",
     "ecommerce",
-    "model-context-protocol"
+    "ai-tools",
+    "claude",
+    "cursor"
   ],
-  "author": "Ronaldo Paulino",
+  "author": {
+    "name": "Ronaldo Paulino",
+    "url": "https://www.instagram.com/_ronaldopaulino/"
+  },
   "license": "MIT",
+  "homepage": "https://karrito.shop",
+  "bugs": {
+    "url": "https://github.com/curetcore/karrito-mcp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curetcore/karrito-mcp.git"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.0",
     "zod": "^3.25.0"
@@ -33,12 +50,10 @@
   },
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/curetcore/karrito-mcp"
-  },
   "engines": {
     "node": ">=18"
   }
