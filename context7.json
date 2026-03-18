@@ -1,0 +1,17 @@
+{
+  "projectTitle": "Karrito MCP",
+  "description": "MCP server for Karrito — digital catalog builder with WhatsApp checkout for LATAM entrepreneurs. 30 tools + 5 resources for managing stores, products, orders, discounts, reviews, customers, shipping, and analytics.",
+  "excludeFolders": ["node_modules", "dist", ".git"],
+  "excludeFiles": ["package-lock.json"],
+  "rules": [
+    "Karrito MCP provides 30 tools and 5 resources via Model Context Protocol",
+    "Public tools (no auth): search_catalogs, get_niche_info",
+    "Authenticated tools require KARRITO_API_KEY env variable",
+    "5 resources available without auth: karrito://pricing, karrito://features, karrito://niches, karrito://competitors, karrito://currencies",
+    "All prices support 6 LATAM currencies: DOP, USD, MXN, COP, ARS, BRL",
+    "Checkout is via WhatsApp — not traditional payment processing",
+    "Install with: npx karrito-mcp",
+    "Free plan: 10 products. Pro $29/mo: 500 products. Lifetime $499: unlimited. Zero commissions.",
+    "14-day free Pro trial for all new users — no credit card required"
+  ]
+}
