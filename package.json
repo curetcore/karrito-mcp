@@ -1,6 +1,6 @@
 {
   "name": "karrito-mcp",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "MCP server for Karrito — digital catalog builder for WhatsApp sellers in LATAM",
   "bin": {
     "karrito-mcp": "./dist/index.js"
@@ -45,6 +45,7 @@
     "zod": "^3.25.0"
   },
   "devDependencies": {
+    "@types/node": "^25.5.0",
     "tsx": "^4.19.0",
     "typescript": "^5.8.0"
   },
