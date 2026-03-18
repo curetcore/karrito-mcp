@@ -1,5 +1,9 @@
 # karrito-mcp
 
+[![npm version](https://img.shields.io/npm/v/karrito-mcp)](https://www.npmjs.com/package/karrito-mcp)
+[![license](https://img.shields.io/npm/l/karrito-mcp)](https://github.com/curetcore/karrito-mcp/blob/main/LICENSE)
+[![CI](https://github.com/curetcore/karrito-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/curetcore/karrito-mcp/actions/workflows/ci.yml)
+
 MCP server for [Karrito](https://karrito.shop) — the digital catalog builder for WhatsApp sellers in LATAM.
 
 Connect your AI assistant (Claude, Cursor, Windsurf) to Karrito and manage your entire store — products, orders, discounts, reviews, shipping, analytics — without leaving your editor.
